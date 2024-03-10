@@ -1,9 +1,9 @@
-// Authentication.jsx
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth';
 import { auth, GoogleProvider } from '../firebase-config';
-import './authentication.css'; // Import your CSS file
+import './authentication.css';
 
 const Authentication = () => {
   const [email, setEmail] = useState("");
@@ -67,7 +67,7 @@ const Authentication = () => {
       {auth.currentUser && (
         <div>
           <button className="logout-button" onClick={logout}>Logout</button>
-          {/* Add any additional components or information for logged-in users */}
+        
         </div>
       )}
     </div>

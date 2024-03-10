@@ -1,10 +1,9 @@
-// contact.jsx
 import React from "react";
 import "./contacts.css";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
-  // Replace this with your actual Google Maps API key
+ 
   const googleMapsApiKey = "AIzaSyDuPpW4rcyu9WFlZdW-rqi9wf6BJmNIj6k";
 
   return (

@@ -1,4 +1,4 @@
-// Create a new CheckoutForm component
+
 
 import React from "react";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
@@ -21,9 +21,9 @@ const CheckoutForm = ({ totalAmount, checkout }) => {
     if (error) {
       console.error(error);
     } else {
-      // Send token to your server or handle the payment as needed
+     
       console.log(token);
-      checkout(); // Example: Call your checkout function here
+      checkout(); 
     }
   };
 

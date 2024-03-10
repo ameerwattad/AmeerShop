@@ -36,13 +36,13 @@
 }
 
 .addToCartBttn {
-  background-color: rgb(19, 19, 19); /* Set background color */
-  color: #fff; /* Set text color */
+  background-color: rgb(19, 19, 19);
+  color: #fff; 
   border: 2px solid rgb(19, 19, 19);
   min-width: 100px;
-  padding: 5px 10px; /* Consolidate padding properties */
+  padding: 5px 10px; 
   border-radius: 15px;
-  cursor: pointer; /* Add pointer cursor for better user interaction */
+  cursor: pointer; 
 }
 
 

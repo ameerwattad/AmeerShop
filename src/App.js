@@ -1,4 +1,4 @@
-// App.js
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar";
@@ -20,7 +20,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/authentication" element={<Authentication />} />
-            <Route path="/checkout" element={<Checkout />} /> {/* Add this line */}
+            <Route path="/checkout" element={<Checkout />} /> 
           </Routes>
         </Router>
       </ShopContextProvider>

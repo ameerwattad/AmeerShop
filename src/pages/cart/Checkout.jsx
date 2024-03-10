@@ -10,13 +10,10 @@ const Checkout = () => {
   const totalAmount = getTotalCartAmount();
   const navigate = useNavigate();
 
-  // Assuming your ShopContext contains the product data
   const { products } = useContext(ShopContext);
 
-  // Get the IDs of items in the cart
   const cartItemIds = Object.keys(cartItems);
 
-  // Create an array with the necessary product information for items in the cart
   const cartProducts = cartItemIds.map((id) => {
     return {
       ...products.find((product) => product.id === parseInt(id)),

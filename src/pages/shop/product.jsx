@@ -1,4 +1,3 @@
-// product.jsx
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 

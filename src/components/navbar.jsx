@@ -1,8 +1,8 @@
-// Navbar.jsx
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
-import Authentication from "../pages/authentication"; // Correct the path
+import Authentication from "../pages/authentication";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -18,11 +18,11 @@ export const Navbar = () => {
         <Link to="/">Shop</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/cart">
-          <ShoppingCart size={32} />
+          My Cart
         </Link>
         <button onClick={toggleAuthentication}>Register/Login</button>
       </div>
-
+  
       {showAuthentication && <Authentication />}
     </div>
   );
