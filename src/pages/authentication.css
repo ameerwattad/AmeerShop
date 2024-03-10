@@ -1,0 +1,26 @@
+/* Authentication.css */
+
+.authentication {
+    display: flex;
+  }
+  
+  .authentication a {
+    text-decoration: none;
+  }
+  
+  .authentication button {
+    background-color: transparent;
+    border: 2px solid white; /* Change the border color */
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: white; /* Set the text color to white */
+    cursor: pointer;
+  }
+  
+  .authentication button:hover {
+    background-color: white;
+    color: rgb(19, 19, 19);
+  }
+  
